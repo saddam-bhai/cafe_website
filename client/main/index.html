@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header>
+                                      <!-- 28,36,646,666 -->
+        <a href="/allorder" class="logo"><i class="fa-solid fa-mug-hot"></i> royal11</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">Drinks</a>
+            <a href="#about">about</a>
+            <a href="#snaks">snaks</a>
+            <a href="#order">order</a>
+            <a href="/myorder">my order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="/logout" class="fa-solid fa-right-from-bracket" id="sign_out"></a>
+            <!-- <i class="fas fa-search" id="search-icon"></i> -->
+            <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Feeling bored? Have Coffee.</span>
+                        <h3>dark coffee</h3>
+                        <p>A Great Cup Of Coffee with Quality and Care. Coffee beans are Freshly Roasted By Our Supplier.</p>
+                        <span><b>₹20</b></span><br>
+                        <a href="#order" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.2.png" alt="" style="width:auto;height:450px;padding-left:20%;" >
+                        <!-- style="width: auto;height:400px;" -->
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>It's never too late for tea.</span>
+                        <h3>hot tea</h3>
+                        <p>prepared with pure milk and organic tea having great flavour.</p>
+                        <span><b>₹20</b></span><br>
+                        <a href="#order" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.1.png" alt="" >
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our drinks </h3>
+        <h1 class="heading"> popular drinks </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/latteCoffee.png" alt="Latte coffee">
+                <h3>Latte coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹40</span>
+            </div>
+
+            <div class="box">
+                <img src="images/cappuccino.png" alt="cappuccino">
+                <h3>Cappuccino</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹50</span>
+            </div>
+
+            <div class="box">
+                <img src="images/blackCoffee.png" alt="Black Coffee">
+                <h3>Black Coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹20</span>
+            </div>
+
+            <div class="box">
+                <img src="images/cold_coffee.png" alt="Cold Coffee">
+                <h3>Cold Coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹40</span>
+            </div>
+
+            <div class="box">
+                <img src="images/masalaChai.png" alt="Masala Chai">
+                <h3>masala Chai</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹30</span>
+            </div>
+
+            <div class="box">
+                <img src="images/blackTea.png" alt="Black Tea">
+                <h3>Black tea</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹20</span>
+            </div>
+
+            <div class="box">
+                <img src="images/greenTea.png" alt="Green Tea">
+                <h3>green tea</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹20</span>
+            </div>
+
+            <div class="box">
+                <img src="images/bombayCutting.png" alt="Bombay Cutting">
+                <h3>Bombay Cutting</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹20</span>
+            </div>
+            <div class="box">
+                <img src="images/lemonWater.png" alt="">
+                <h3>Lemon-lime Water</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span> ₹20</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best cafe in the Town</h3>
+                <p>a cafe with a unique concept having game hall. you can enjoy your game with tea or coffee without any
+                    restriction. and also have a lots of snaks to enjoy the moment with chilled soft drinks.</p>
+                <p>We make a great cup of coffee and tea as well. Quality, care, and preparation of coffee beans! All of
+                    our coffee beans are locally supplied and freshly roasted on site by our supplier.</p>
+                <p>our shops offer a uniquely calm atmosphere where people can gather with family and friends to catch
+                    up over a cup of something warm. you can also book for birthday parties or kitty parties or get
+                    together.</p>
+                <div class="icons-container">
+                    <div class="icons" class="btn">
+                        <a target="_blank"
+                            href="https://web.whatsapp.com/send?phone=%2B910000000000&text&type=phone_number&app_absent=0"><i
+                                class="fa-brands fa-whatsapp"></i>
+                            <span>whatsapp</span> </a>
+                    </div>
+                    <div class="icons" class="btn">
+                        <a target="_blank" href=""> <i
+                                class="fas fa-location-dot"></i>
+                            <span>address</span> </a>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn">contact us</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- snaks section starts  -->
+
+    <section class="snaks" id="snaks">
+
+        <h3 class="sub-heading"> our snaks </h3>
+        <h1 class="heading"> today's speciality </h1>
+
+        <br>
+        <hr class="style-hl">
+        <h3 class="sub-heading"> Toasts </h3>
+        <br>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/Rusk.png" alt="Rusk">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Rusk</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Toastea.png" alt="Toastea">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Toastea</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/choco_rusk.png" alt="Choco Rusk">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Choco Rusk</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹15</span>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr class="style-hl">
+        <h3 class="sub-heading"> Breads </h3>
+        <br>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/brown_bread.png" alt="Brown Bread">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Brown Bread</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Toasted_Bread.png" alt="Toasted Bread">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Toasted Bread</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹15</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/choco_bread.png" alt="Choco Bread">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Choco Bread</h3>
+                    <p>2 Slices</p>
+                    <span class="price">₹20</span>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr class="style-hl">
+        <h3 class="sub-heading"> Cookies </h3>
+        <br>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/snaks-6.png" alt="Cookie 1">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cookie 1</h3>
+                    <p>2 Slices | Multi-grain Cookies of six super healthy ingredients- ragi, bajra, soya, whole wheat,
+                        oats and rice</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/snaks-7.png" alt="Cookie 2">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cookie 2</h3>
+                    <p>2 Slices. <br> nutrient rich ingredients, maida free and delicious in taste</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Jeera_Cookie.png" alt="Jeera Cookie">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Jeera Cookie</h3>
+                    <p>2 Slices. <br>jeera flavoured, Crispy, Crumbly, Savory and Sweet Indian Cumin Butter Cookie</p>
+                    <span class="price">₹10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Khari.png" alt="Khari">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Khari</h3>
+                    <p>2 Slices <br>Puffed butter flavoured khari biscuits also known as Maska Khari biscuits</p>
+                    <span class="price">₹15</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Nankhatai.png" alt="Nankhatai">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Nankhatai</h3>
+                    <p>2 Slices <br>sweet,crunchy. Zero Maida | Zero White Sugar | Zero Preservatives</p>
+                    <span class="price">₹15</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chocoCookie.png" alt="Choco Cookie">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Choco Cookie</h3>
+                    <p>2 Slices <br>pure chocolate | sweet,crunchy, Zero Maida | Extra choco beans</p>
+                    <span class="price">₹15</span>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr class="style-hl">
+        <h3 class="sub-heading"> Cold Drinks </h3>
+        <br>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/cocacola.png" alt="Coca Cola">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Coca Cola</h3>
+                    <p>(300 ml) Original Taste Soft Drink Can</p>
+                    <span class="price">₹40</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/sprite.png" alt="Sprite">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Sprite</h3>
+                    <p>(300 ml) Original Taste Soft Drink Can</p>
+                    <span class="price">₹40</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pepsi.png" alt="Pepsi">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Pepsi</h3>
+                    <p>(300 ml) Original Taste Soft Drink Can</p>
+                    <span class="price">₹40</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- snaks section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form method="post" onsubmit="orderDone()" id="order-form">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input id="o_name" type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input id="o_number" type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input id="main_order" type="text" placeholder="enter order">
+                </div>
+                <div class="input">
+                    <span>snaks(optional)</span>
+                    <input id="additional_food" type="text" placeholder="Ex:-toasts, cookies....">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>email(optional)</span>
+                    <input id="o_email" type="text" placeholder="your email">
+                </div>
+                <!-- <div class="">
+                    <label class="delivery_option" for="contactChoice1">dine in
+                    <input type="radio" id="dine_in"
+                    name="delivery_option" value="dine_in" checked>
+                    </label>
+                
+                    <label class="delivery_option" for="contactChoice2">delivery
+                    <input type="radio" id="delivery"
+                    name="delivery_option" value="delivery" disabled>
+                    </label>
+                </div> -->
+                <div class="input">
+                    <span>date and time</span>
+                    <input id="o_delivery_time" type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea style="-webkit-text-fill-color: #ff2d2ded;" id="o_address" name=""
+                        placeholder="SOORY!!  Delivery not available at the moment." cols="30" rows="10"
+                        disabled></textarea>
+                </div>
+                <div class="input">
+                    <span>your message(optional)</span>
+                    <textarea id="o_message" name="" placeholder="enter your message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order Now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#dishes">Drinks</a>
+                <a href="#about">about</a>
+                <a href="#snaks">snaks</a>
+                <a href="#order">order</a>
+                <a href="/myorder">my order</a>
+            </div>
+
+            <div class="box" id="contact">
+                <h3>contact info</h3>
+                <a href="#">+1234567890</a>
+                <a href="#">email@gmail.com</a>
+                <a href="#">nagod, satna - 485446</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <a target="_blank"
+                href="https://instagram.com/saddam_bhaiii?utm_medium=copy_link""> <span> MR. Saddam</span> </a></div>
+
+    </section>
+
+    <script src=" script.js"> </script>
+
+</body>
+
+</html>

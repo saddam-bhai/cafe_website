@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>SignIn-SignUp</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login-content">
+            <div class="login-img">
+                <img src="img/img3.jpg" alt="sorry img not found">
+            </div>
+
+            <div class="login-forms">
+                <form action="" class="login-register" id="login-in">
+                    <h1 class="login-title">Sign In</h1>
+
+                    <div class="login-box">
+                        <i class='bx bx-at login-icon'></i>
+                        <input type="text" placeholder="Email" id="lemail" class="login-input">
+                    </div>
+
+                    <div class="login-box">
+                        <i class='bx bx-lock login-icon'></i>
+                        <input type="password" placeholder="Password" id="lpassword" class="login-input">
+                    </div>
+
+                    <a href="/forget_password" class="login-forgot">Forgot password?</a>
+
+                    <div>
+                        <input type="submit" class="login-button" value="Sign In">
+                    </div>
+                    <!-- <a href="#" class="login-button">Sign In</a> -->
+
+                    <div>
+                        <span class="login-account">Don't have an Account?</span>
+                        <span class="login-signin" id="sign-up">Sign Up</span>
+                    </div>
+
+                    <div>
+                        <a href="/main" class="login-signin" style="
+                        font-size: 15px;" >Sign In Later....</a>
+                    </div>
+                </form>
+<!---------------------------------- SIGN UP ----------------------->
+                <form action="" class="login-create none" id="login-up">
+                    <h1 class="login-title">Sign Up</h1>
+
+                    <div class="login-box">
+                        <i class='bx bx-user login-icon'></i>
+                        <input type="text" autocomplete="off" id="name" placeholder="Full Name" class="login-input">
+                    </div>
+
+                    <div class="login-box">
+                        <i class='bx bx-phone login-icon'></i>
+                        <input type="tel" autocomplete="off" id="number" placeholder="Number" class="login-input">
+                    </div>
+                    
+                    <div class="login-box">
+                        <i class='bx bx-at login-icon'></i>
+                        <input type="email" autocomplete="off" id="email" placeholder="Email" class="login-input">
+                    </div>
+
+                    <div class="login-box">
+                        <i class='bx bx-lock login-icon'></i>
+                        <input type="password" autocomplete="off" id="password" placeholder="Password" class="login-input">
+                    </div>
+                    <div>
+                    <input type="submit" class="login-button" value="Sign up" />
+                    </div>
+                    <!-- <a type="submit" class="login-button">Sign Up</a> -->
+
+                    <div>
+                        <span class="login-account">Already have an Account</span>
+                        <span class="login-signup" id="sign-in">Sign In</span>
+                    </div>
+
+                    <!-- <div class="login-social">
+                        <a href="#" class="login-social-icon"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#" class="login-social-icon"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="login-social-icon"><i class='bx bxl-google'></i></a>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
