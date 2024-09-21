@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -15,6 +14,7 @@ const checkAuth = require("./middleware/check_auth");
 const checkAdmin = require("./middleware/check_admin");
 const path = require('path')
 const favicon = require('serve-favicon');
+require("dotenv").config();
 
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
